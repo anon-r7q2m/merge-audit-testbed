@@ -1,0 +1,189 @@
+{
+ "normalizer": "per-model battery median of full_logit_std (tier-1: cand_logit_std)",
+ "placebo_invariance": "mechanical: m->t*m and s->t*s on the reference, ratio unchanged",
+ "tier1_olmo": {
+  "note": "tier-1 uses cand_logit_std (the shard carries no full_logit_std)",
+  "n_live": 624,
+  "s_sft": 2.45063,
+  "s_ref": 2.34278,
+  "s_base": 2.30315,
+  "scale_ratio_sft_over_ref": 1.046,
+  "D_add_t1": 0.25,
+  "D_mul": 0.055052,
+  "signs_agree": true
+ },
+ "panel": {
+  "fam1-llama3-8b": [
+   {
+    "battery": "popqa",
+    "low_power": false,
+    "n_live": 703,
+    "s_ft": 2.05262,
+    "s_ref": 2.38421,
+    "scale_ratio_ft_over_ref": 0.8609,
+    "D_add_t1": 0.25,
+    "D_mul": 0.254085,
+    "signs_agree": true
+   },
+   {
+    "battery": "gsm8k",
+    "low_power": false,
+    "n_live": 97,
+    "s_ft": 1.88296,
+    "s_ref": 1.9584,
+    "scale_ratio_ft_over_ref": 0.9615,
+    "D_add_t1": 0.375,
+    "D_mul": 0.224728,
+    "signs_agree": true
+   },
+   {
+    "battery": "mbpp",
+    "low_power": false,
+    "n_live": 60,
+    "s_ft": 1.83,
+    "s_ref": 1.76245,
+    "scale_ratio_ft_over_ref": 1.0383,
+    "D_add_t1": 1.625,
+    "D_mul": 0.853409,
+    "signs_agree": true
+   }
+  ],
+  "fam3-olmo-1b": [
+   {
+    "battery": "popqa",
+    "low_power": false,
+    "n_live": 624,
+    "s_ft": 2.50265,
+    "s_ref": 2.47028,
+    "scale_ratio_ft_over_ref": 1.0131,
+    "D_add_t1": 0.21875,
+    "D_mul": 0.078545,
+    "signs_agree": true
+   },
+   {
+    "battery": "gsm8k",
+    "low_power": true,
+    "n_live": 39
+   },
+   {
+    "battery": "mbpp",
+    "low_power": false,
+    "n_live": 33,
+    "s_ft": 2.07281,
+    "s_ref": 2.11918,
+    "scale_ratio_ft_over_ref": 0.9781,
+    "D_add_t1": 0.375,
+    "D_mul": 0.209747,
+    "signs_agree": true
+   }
+  ],
+  "fam4-llama32-1b": [
+   {
+    "battery": "popqa",
+    "low_power": false,
+    "n_live": 664,
+    "s_ft": 2.30379,
+    "s_ref": 2.40808,
+    "scale_ratio_ft_over_ref": 0.9567,
+    "D_add_t1": 0.8125,
+    "D_mul": 0.377194,
+    "signs_agree": true
+   },
+   {
+    "battery": "gsm8k",
+    "low_power": false,
+    "n_live": 82,
+    "s_ft": 2.0428,
+    "s_ref": 2.05502,
+    "scale_ratio_ft_over_ref": 0.9941,
+    "D_add_t1": 1.0625,
+    "D_mul": 0.518665,
+    "signs_agree": true
+   },
+   {
+    "battery": "mbpp",
+    "low_power": false,
+    "n_live": 43,
+    "s_ft": 1.98812,
+    "s_ref": 2.02759,
+    "scale_ratio_ft_over_ref": 0.9805,
+    "D_add_t1": 0.125,
+    "D_mul": 0.064097,
+    "signs_agree": true
+   }
+  ],
+  "fam5-llama32-3b": [
+   {
+    "battery": "popqa",
+    "low_power": false,
+    "n_live": 748,
+    "s_ft": 2.11504,
+    "s_ref": 2.28323,
+    "scale_ratio_ft_over_ref": 0.9263,
+    "D_add_t1": 1.04688,
+    "D_mul": 0.574024,
+    "signs_agree": true
+   },
+   {
+    "battery": "gsm8k",
+    "low_power": false,
+    "n_live": 93,
+    "s_ft": 1.95137,
+    "s_ref": 1.93759,
+    "scale_ratio_ft_over_ref": 1.0071,
+    "D_add_t1": 0.5,
+    "D_mul": 0.257597,
+    "signs_agree": true
+   },
+   {
+    "battery": "mbpp",
+    "low_power": false,
+    "n_live": 55,
+    "s_ft": 1.82234,
+    "s_ref": 1.84458,
+    "scale_ratio_ft_over_ref": 0.9879,
+    "D_add_t1": 0.375,
+    "D_mul": 0.214877,
+    "signs_agree": true
+   }
+  ],
+  "fam7-qwen3-8b": [
+   {
+    "battery": "popqa",
+    "low_power": false,
+    "n_live": 506,
+    "s_ft": 2.68608,
+    "s_ref": 3.10495,
+    "scale_ratio_ft_over_ref": 0.8651,
+    "D_add_t1": 0.375,
+    "D_mul": 0.219004,
+    "signs_agree": true
+   },
+   {
+    "battery": "gsm8k",
+    "low_power": true,
+    "n_live": 55
+   },
+   {
+    "battery": "mbpp",
+    "low_power": false,
+    "n_live": 40,
+    "s_ft": 3.12922,
+    "s_ref": 3.19177,
+    "scale_ratio_ft_over_ref": 0.9804,
+    "D_add_t1": 0.75,
+    "D_mul": 0.263944,
+    "signs_agree": true
+   }
+  ]
+ },
+ "summary": {
+  "powered_cells": 13,
+  "sign_disagree_add_vs_mul": 0,
+  "scale_ratio_range": [
+   0.8609,
+   1.0383
+  ],
+  "tier1_sign_disagree": false
+ }
+}

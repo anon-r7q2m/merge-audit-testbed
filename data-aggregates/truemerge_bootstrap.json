@@ -1,0 +1,443 @@
+{
+ "tm1-qwen25-1.5b:ftA": {
+  "G+R": {
+   "n": 295,
+   "n_by_battery": {
+    "gsm8k": 18,
+    "mbpp": 12,
+    "popqa": 265
+   },
+   "surv_merge": 0.1627,
+   "surv_merge_ci95": [
+    0.122,
+    0.207
+   ],
+   "surv_dis05": 0.3288,
+   "surv_dis05_ci95": [
+    0.278,
+    0.383
+   ]
+  },
+  "S": {
+   "n": 214,
+   "n_by_battery": {
+    "gsm8k": 4,
+    "mbpp": 25,
+    "popqa": 185
+   },
+   "surv_merge": 0.6075,
+   "surv_merge_ci95": [
+    0.542,
+    0.673
+   ]
+  }
+ },
+ "tm1-qwen25-1.5b:ftB": {
+  "G+R": {
+   "n": 110,
+   "n_by_battery": {
+    "gsm8k": 51,
+    "mbpp": 6,
+    "popqa": 53
+   },
+   "surv_merge": 0.3455,
+   "surv_merge_ci95": [
+    0.255,
+    0.436
+   ],
+   "surv_dis05": 0.2636,
+   "surv_dis05_ci95": [
+    0.182,
+    0.345
+   ]
+  },
+  "S": {
+   "n": 214,
+   "n_by_battery": {
+    "gsm8k": 4,
+    "mbpp": 25,
+    "popqa": 185
+   },
+   "surv_merge": 0.6075,
+   "surv_merge_ci95": [
+    0.542,
+    0.673
+   ]
+  }
+ },
+ "tm1-qwen25-1.5b:_pair": {
+  "G+R": {
+   "n": 405,
+   "surv_merge": 0.2123,
+   "surv_merge_ci95": [
+    0.173,
+    0.252
+   ],
+   "surv_dis05": 0.3111,
+   "surv_dis05_ci95": [
+    0.267,
+    0.356
+   ]
+  },
+  "S": {
+   "n": 428,
+   "surv_merge": 0.6075,
+   "surv_merge_ci95": [
+    0.561,
+    0.654
+   ]
+  }
+ },
+ "tm2-llama3-8b:ftA": {
+  "G+R": {
+   "n": 175,
+   "n_by_battery": {
+    "gsm8k": 38,
+    "mbpp": 15,
+    "popqa": 122
+   },
+   "surv_merge": 0.5143,
+   "surv_merge_ci95": [
+    0.44,
+    0.589
+   ],
+   "surv_dis05": 0.7143,
+   "surv_dis05_ci95": [
+    0.646,
+    0.777
+   ]
+  },
+  "S": {
+   "n": 685,
+   "n_by_battery": {
+    "gsm8k": 59,
+    "mbpp": 45,
+    "popqa": 581
+   },
+   "surv_merge": 0.9723,
+   "surv_merge_ci95": [
+    0.959,
+    0.984
+   ]
+  }
+ },
+ "tm2-llama3-8b:ftB": {
+  "G+R": {
+   "n": 353,
+   "n_by_battery": {
+    "gsm8k": 173,
+    "mbpp": 13,
+    "popqa": 167
+   },
+   "surv_merge": 0.6686,
+   "surv_merge_ci95": [
+    0.62,
+    0.717
+   ],
+   "surv_dis05": 0.6006,
+   "surv_dis05_ci95": [
+    0.55,
+    0.652
+   ]
+  },
+  "S": {
+   "n": 685,
+   "n_by_battery": {
+    "gsm8k": 59,
+    "mbpp": 45,
+    "popqa": 581
+   },
+   "surv_merge": 0.9723,
+   "surv_merge_ci95": [
+    0.959,
+    0.984
+   ]
+  }
+ },
+ "tm2-llama3-8b:_pair": {
+  "G+R": {
+   "n": 528,
+   "surv_merge": 0.6174,
+   "surv_merge_ci95": [
+    0.576,
+    0.659
+   ],
+   "surv_dis05": 0.6383,
+   "surv_dis05_ci95": [
+    0.598,
+    0.678
+   ]
+  },
+  "S": {
+   "n": 1370,
+   "surv_merge": 0.9723,
+   "surv_merge_ci95": [
+    0.964,
+    0.98
+   ]
+  }
+ },
+ "tm3-qwen3-8b:ftA": {
+  "G+R": {
+   "n": 202,
+   "n_by_battery": {
+    "gsm8k": 36,
+    "mbpp": 10,
+    "popqa": 156
+   },
+   "surv_merge": 0.599,
+   "surv_merge_ci95": [
+    0.535,
+    0.663
+   ],
+   "surv_dis05": 0.7277,
+   "surv_dis05_ci95": [
+    0.668,
+    0.782
+   ]
+  },
+  "S": {
+   "n": 399,
+   "n_by_battery": {
+    "gsm8k": 19,
+    "mbpp": 30,
+    "popqa": 350
+   },
+   "surv_merge": 0.9825,
+   "surv_merge_ci95": [
+    0.97,
+    0.992
+   ]
+  }
+ },
+ "tm3-qwen3-8b:ftB": {
+  "G+R": {
+   "n": 69,
+   "n_by_battery": {
+    "gsm8k": 12,
+    "mbpp": 3,
+    "popqa": 54
+   },
+   "surv_merge": 0.6232,
+   "surv_merge_ci95": [
+    0.507,
+    0.725
+   ],
+   "surv_dis05": 0.7971,
+   "surv_dis05_ci95": [
+    0.696,
+    0.884
+   ]
+  },
+  "S": {
+   "n": 399,
+   "n_by_battery": {
+    "gsm8k": 19,
+    "mbpp": 30,
+    "popqa": 350
+   },
+   "surv_merge": 0.9825,
+   "surv_merge_ci95": [
+    0.97,
+    0.992
+   ]
+  }
+ },
+ "tm3-qwen3-8b:_pair": {
+  "G+R": {
+   "n": 271,
+   "surv_merge": 0.6052,
+   "surv_merge_ci95": [
+    0.55,
+    0.661
+   ],
+   "surv_dis05": 0.7454,
+   "surv_dis05_ci95": [
+    0.697,
+    0.793
+   ]
+  },
+  "S": {
+   "n": 798,
+   "surv_merge": 0.9825,
+   "surv_merge_ci95": [
+    0.974,
+    0.99
+   ]
+  }
+ },
+ "tm4-mistral-7b:ftA": {
+  "G+R": {
+   "n": 220,
+   "n_by_battery": {
+    "mbpp": 7,
+    "popqa": 213
+   },
+   "surv_merge": 0.7227,
+   "surv_merge_ci95": [
+    0.664,
+    0.782
+   ],
+   "surv_dis05": 0.8182,
+   "surv_dis05_ci95": [
+    0.768,
+    0.868
+   ]
+  },
+  "S": {
+   "n": 418,
+   "n_by_battery": {
+    "mbpp": 30,
+    "popqa": 388
+   },
+   "surv_merge": 0.9833,
+   "surv_merge_ci95": [
+    0.969,
+    0.995
+   ]
+  }
+ },
+ "tm4-mistral-7b:ftB": {
+  "G+R": {
+   "n": 38,
+   "n_by_battery": {
+    "mbpp": 2,
+    "popqa": 36
+   },
+   "surv_merge": 0.5,
+   "surv_merge_ci95": [
+    0.342,
+    0.658
+   ],
+   "surv_dis05": 0.7105,
+   "surv_dis05_ci95": [
+    0.578,
+    0.842
+   ]
+  },
+  "S": {
+   "n": 418,
+   "n_by_battery": {
+    "mbpp": 30,
+    "popqa": 388
+   },
+   "surv_merge": 0.9833,
+   "surv_merge_ci95": [
+    0.971,
+    0.995
+   ]
+  }
+ },
+ "tm4-mistral-7b:_pair": {
+  "G+R": {
+   "n": 258,
+   "surv_merge": 0.6899,
+   "surv_merge_ci95": [
+    0.632,
+    0.744
+   ],
+   "surv_dis05": 0.8023,
+   "surv_dis05_ci95": [
+    0.752,
+    0.849
+   ]
+  },
+  "S": {
+   "n": 836,
+   "surv_merge": 0.9833,
+   "surv_merge_ci95": [
+    0.974,
+    0.992
+   ]
+  }
+ },
+ "tm5-qwen25-7b:ftA": {
+  "G+R": {
+   "n": 247,
+   "n_by_battery": {
+    "gsm8k": 17,
+    "mbpp": 14,
+    "popqa": 216
+   },
+   "surv_merge": 0.2834,
+   "surv_merge_ci95": [
+    0.231,
+    0.34
+   ],
+   "surv_dis05": 0.9231,
+   "surv_dis05_ci95": [
+    0.891,
+    0.955
+   ]
+  },
+  "S": {
+   "n": 430,
+   "n_by_battery": {
+    "gsm8k": 11,
+    "mbpp": 27,
+    "popqa": 392
+   },
+   "surv_merge": 0.8419,
+   "surv_merge_ci95": [
+    0.807,
+    0.874
+   ]
+  }
+ },
+ "tm5-qwen25-7b:ftB": {
+  "G+R": {
+   "n": 133,
+   "n_by_battery": {
+    "gsm8k": 53,
+    "mbpp": 11,
+    "popqa": 69
+   },
+   "surv_merge": 0.5263,
+   "surv_merge_ci95": [
+    0.444,
+    0.609
+   ],
+   "surv_dis05": 0.5489,
+   "surv_dis05_ci95": [
+    0.466,
+    0.632
+   ]
+  },
+  "S": {
+   "n": 430,
+   "n_by_battery": {
+    "gsm8k": 11,
+    "mbpp": 27,
+    "popqa": 392
+   },
+   "surv_merge": 0.8419,
+   "surv_merge_ci95": [
+    0.807,
+    0.874
+   ]
+  }
+ },
+ "tm5-qwen25-7b:_pair": {
+  "G+R": {
+   "n": 380,
+   "surv_merge": 0.3684,
+   "surv_merge_ci95": [
+    0.321,
+    0.416
+   ],
+   "surv_dis05": 0.7921,
+   "surv_dis05_ci95": [
+    0.75,
+    0.832
+   ]
+  },
+  "S": {
+   "n": 860,
+   "surv_merge": 0.8419,
+   "surv_merge_ci95": [
+    0.817,
+    0.865
+   ]
+  }
+ }
+}

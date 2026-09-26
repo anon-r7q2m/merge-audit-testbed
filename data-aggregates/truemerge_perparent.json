@@ -1,0 +1,26 @@
+{
+ "tm1-qwen25-1.5b:A": {
+  "n_own": 509,
+  "merge_on_own": 0.3497
+ },
+ "tm1-qwen25-1.5b:B": {
+  "n_own": 324,
+  "merge_on_own": 0.5185
+ },
+ "tm2-llama3-8b:A": {
+  "n_own": 860,
+  "merge_on_own": 0.8791
+ },
+ "tm2-llama3-8b:B": {
+  "n_own": 1038,
+  "merge_on_own": 0.869
+ },
+ "tm3-qwen3-8b:A": {
+  "n_own": 601,
+  "merge_on_own": 0.8536
+ },
+ "tm3-qwen3-8b:B": {
+  "n_own": 468,
+  "merge_on_own": 0.9295
+ }
+}

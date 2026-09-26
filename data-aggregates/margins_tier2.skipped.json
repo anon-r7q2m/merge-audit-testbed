@@ -1,0 +1,25 @@
+{
+ "skipped_with_reason": {
+  "ft1": {
+   "config_key_identical": true,
+   "config_diff": {},
+   "tokenizer_byte_identical": true,
+   "delta_norm": NaN,
+   "delta_norm_ref_sft": 214.125,
+   "delta_norm_in_band": false,
+   "pass": false,
+   "reason": "mechanical gate failed (see booleans)"
+  },
+  "ft2": {
+   "config_key_identical": true,
+   "config_diff": {},
+   "tokenizer_byte_identical": true,
+   "delta_norm": 4957.761,
+   "delta_norm_ref_sft": 214.125,
+   "delta_norm_in_band": false,
+   "pass": false,
+   "reason": "mechanical gate failed (see booleans)"
+  }
+ },
+ "note": "PREREG §4.3: a unit is skipped when any mechanical verification gate fails; the provenance caveat travels with the record"
+}

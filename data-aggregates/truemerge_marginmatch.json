@@ -1,0 +1,77 @@
+{
+ "design": "margin-tercile-matched exclusive vs shared survival on the three true-merge pairs (per-family own-parent margin terciles)",
+ "cells": {
+  "tm1-qwen25-1.5b:ftA": {
+   "terciles": [
+    0.81,
+    1.94
+   ],
+   "low": [
+    121,
+    0.15,
+    51,
+    0.65
+   ],
+   "mid": [
+    110,
+    0.16,
+    64,
+    0.55
+   ],
+   "high": [
+    64,
+    0.19,
+    99,
+    0.63
+   ]
+  },
+  "tm2-llama3-8b:ftA": {
+   "terciles": [
+    1.31,
+    3.06
+   ],
+   "low": [
+    118,
+    0.38,
+    171,
+    0.92
+   ],
+   "mid": [
+    39,
+    0.77,
+    247,
+    0.98
+   ],
+   "high": [
+    18,
+    0.83,
+    267,
+    1.0
+   ]
+  },
+  "tm3-qwen3-8b:ftA": {
+   "terciles": [
+    1.38,
+    2.88
+   ],
+   "low": [
+    108,
+    0.45,
+    98,
+    0.94
+   ],
+   "mid": [
+    67,
+    0.76,
+    139,
+    1.0
+   ],
+   "high": [
+    27,
+    0.78,
+    162,
+    0.99
+   ]
+  }
+ }
+}

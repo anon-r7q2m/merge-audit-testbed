@@ -1,0 +1,44 @@
+{
+ "3184-A": {
+  "S_meas": 0.4195,
+  "S_dis": 0.5128,
+  "S_lin_thMerge": 0.254,
+  "S_lin_thOwnEnd": 0.217,
+  "n_live": 5755
+ },
+ "3184-B": {
+  "S_meas": 0.4174,
+  "S_dis": 0.4497,
+  "S_lin_thMerge": 0.2548,
+  "S_lin_thOwnEnd": 0.2284,
+  "n_live": 5831
+ },
+ "5383-A": {
+  "S_meas": 0.3969,
+  "S_dis": 0.3732,
+  "S_lin_thMerge": 0.2826,
+  "S_lin_thOwnEnd": 0.2826,
+  "n_live": 5729
+ },
+ "5383-B": {
+  "S_meas": 0.3958,
+  "S_dis": 0.3792,
+  "S_lin_thMerge": 0.2825,
+  "S_lin_thOwnEnd": 0.3212,
+  "n_live": 5781
+ },
+ "7192-A": {
+  "S_meas": 0.3035,
+  "S_dis": 0.4132,
+  "S_lin_thMerge": 0.1859,
+  "S_lin_thOwnEnd": 0.1776,
+  "n_live": 5631
+ },
+ "7192-B": {
+  "S_meas": 0.2943,
+  "S_dis": 0.4118,
+  "S_lin_thMerge": 0.174,
+  "S_lin_thOwnEnd": 0.1609,
+  "n_live": 5643
+ }
+}

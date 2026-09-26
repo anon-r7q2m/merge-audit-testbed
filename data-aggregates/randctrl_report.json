@@ -1,0 +1,82 @@
+{
+ "design": "universe-2 18k facts randomly re-partitioned per seed into E_A/E_B/S 6000 each; exclusive K=128 single-branch, shared K=64 per branch (matched total dose); tau=0",
+ "cells": {
+  "s677-A": {
+   "excl": [
+    168,
+    0.232
+   ],
+   "shared": [
+    1,
+    1.0
+   ]
+  },
+  "s677-B": {
+   "excl": [
+    182,
+    0.313
+   ],
+   "shared": [
+    1,
+    1.0
+   ]
+  },
+  "s733-A": {
+   "excl": [
+    5857,
+    0.347
+   ],
+   "shared": [
+    5218,
+    0.875
+   ]
+  },
+  "s733-B": {
+   "excl": [
+    5850,
+    0.325
+   ],
+   "shared": [
+    5218,
+    0.875
+   ]
+  },
+  "s913-A": {
+   "excl": [
+    3587,
+    0.621
+   ]
+  },
+  "s919-A": {
+   "excl": [
+    3702,
+    0.69
+   ]
+  },
+  "s913-B": {
+   "excl": [
+    3587,
+    0.621
+   ]
+  },
+  "s919-B": {
+   "excl": [
+    3702,
+    0.69
+   ]
+  },
+  "s913-shared": {
+   "shared": [
+    1519,
+    0.847
+   ]
+  },
+  "s919-shared": {
+   "shared": [
+    1637,
+    0.943
+   ]
+  }
+ },
+ "note": "s677 failed storage (protocol variance); s733 clean | v2 extension (2026-09-08, canonical ghost-Q99 caliber): s913 shared 0.909 vs exclusive 0.621; s919 shared 0.968 vs exclusive 0.690; s677 failed storage (ITT). s733 recheck 0.874 vs 0.604."
+}

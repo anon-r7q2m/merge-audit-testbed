@@ -1,0 +1,164 @@
+{
+ "tm1-qwen25-1.5b:ftA": {
+  "G+R": {
+   "n": 295,
+   "merge_strip": 0.1627,
+   "merge_freegen": 0.1424,
+   "merge_freegen_ci90": [
+    0.108,
+    0.175
+   ],
+   "endpoint_freegen": 0.6576
+  },
+  "S": {
+   "n": 214,
+   "merge_strip": 0.6075,
+   "merge_freegen": 0.4112,
+   "merge_freegen_ci90": [
+    0.351,
+    0.461
+   ],
+   "endpoint_freegen": 0.7617
+  },
+  "_agg": {
+   "freegen_all": 0.0976,
+   "freegen_ftA": 0.344,
+   "freegen_ftB": 0.2792
+  }
+ },
+ "tm1-qwen25-1.5b:ftB": {
+  "G+R": {
+   "n": 110,
+   "merge_strip": 0.3455,
+   "merge_freegen": 0.2273,
+   "merge_freegen_ci90": [
+    0.157,
+    0.287
+   ],
+   "endpoint_freegen": 0.5091
+  },
+  "S": {
+   "n": 214,
+   "merge_strip": 0.6075,
+   "merge_freegen": 0.4112,
+   "merge_freegen_ci90": [
+    0.351,
+    0.461
+   ],
+   "endpoint_freegen": 0.8084
+  },
+  "_agg": {
+   "freegen_all": 0.0976,
+   "freegen_ftA": 0.344,
+   "freegen_ftB": 0.2792
+  }
+ },
+ "tm2-llama3-8b:ftA": {
+  "G+R": {
+   "n": 175,
+   "merge_strip": 0.5143,
+   "merge_freegen": 0.5029,
+   "merge_freegen_ci90": [
+    0.434,
+    0.557
+   ],
+   "endpoint_freegen": 0.6286
+  },
+  "S": {
+   "n": 685,
+   "merge_strip": 0.9723,
+   "merge_freegen": 0.8365,
+   "merge_freegen_ci90": [
+    0.81,
+    0.856
+   ],
+   "endpoint_freegen": 0.8263
+  },
+  "_agg": {
+   "freegen_all": 0.5288,
+   "freegen_ftA": 0.5809,
+   "freegen_ftB": 0.3211
+  }
+ },
+ "tm2-llama3-8b:ftB": {
+  "G+R": {
+   "n": 353,
+   "merge_strip": 0.6686,
+   "merge_freegen": 0.7167,
+   "merge_freegen_ci90": [
+    0.672,
+    0.751
+   ],
+   "endpoint_freegen": 0.4448
+  },
+  "S": {
+   "n": 685,
+   "merge_strip": 0.9723,
+   "merge_freegen": 0.8365,
+   "merge_freegen_ci90": [
+    0.81,
+    0.856
+   ],
+   "endpoint_freegen": 0.7927
+  },
+  "_agg": {
+   "freegen_all": 0.5288,
+   "freegen_ftA": 0.5809,
+   "freegen_ftB": 0.3211
+  }
+ },
+ "tm3-qwen3-8b:ftA": {
+  "G+R": {
+   "n": 202,
+   "merge_strip": 0.599,
+   "merge_freegen": 0.5792,
+   "merge_freegen_ci90": [
+    0.515,
+    0.628
+   ],
+   "endpoint_freegen": 0.4802
+  },
+  "S": {
+   "n": 399,
+   "merge_strip": 0.9825,
+   "merge_freegen": 0.6667,
+   "merge_freegen_ci90": [
+    0.623,
+    0.701
+   ],
+   "endpoint_freegen": 0.5163
+  },
+  "_agg": {
+   "freegen_all": 0.3729,
+   "freegen_ftA": 0.2836,
+   "freegen_ftB": 0.3715
+  }
+ },
+ "tm3-qwen3-8b:ftB": {
+  "G+R": {
+   "n": 69,
+   "merge_strip": 0.6232,
+   "merge_freegen": 0.3913,
+   "merge_freegen_ci90": [
+    0.282,
+    0.471
+   ],
+   "endpoint_freegen": 0.5797
+  },
+  "S": {
+   "n": 399,
+   "merge_strip": 0.9825,
+   "merge_freegen": 0.6667,
+   "merge_freegen_ci90": [
+    0.623,
+    0.701
+   ],
+   "endpoint_freegen": 0.6642
+  },
+  "_agg": {
+   "freegen_all": 0.3729,
+   "freegen_ftA": 0.2836,
+   "freegen_ftB": 0.3715
+  }
+ }
+}

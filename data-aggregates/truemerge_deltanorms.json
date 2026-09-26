@@ -1,0 +1,67 @@
+{
+ "tm1-qwen25-1.5b": {
+  "family": "tm1-qwen25-1.5b",
+  "n_keys": 338,
+  "deltaA_fro": 1033.134,
+  "deltaB_fro": 1772.397,
+  "base_fro": 1640.691,
+  "cos_dA_dB": 0.41328,
+  "branch_sep_fro": 1641.718,
+  "relA": 0.629695,
+  "relB": 1.080275,
+  "sep_over_deltaA": 1.5891,
+  "sep_over_deltaB": 0.9263
+ },
+ "tm2-llama3-8b": {
+  "family": "tm2-llama3-8b",
+  "n_keys": 291,
+  "deltaA_fro": 47.442,
+  "deltaB_fro": 105.751,
+  "base_fro": 1145.338,
+  "cos_dA_dB": 0.06595,
+  "branch_sep_fro": 113.014,
+  "relA": 0.041422,
+  "relB": 0.092332,
+  "sep_over_deltaA": 2.3822,
+  "sep_over_deltaB": 1.0687
+ },
+ "tm3-qwen3-8b": {
+  "family": "tm3-qwen3-8b",
+  "n_keys": 399,
+  "deltaA_fro": 201.778,
+  "deltaB_fro": 269.381,
+  "base_fro": 2487.747,
+  "cos_dA_dB": 0.18846,
+  "branch_sep_fro": 304.62,
+  "relA": 0.081109,
+  "relB": 0.108283,
+  "sep_over_deltaA": 1.5097,
+  "sep_over_deltaB": 1.1308
+ },
+ "tm4-mistral-7b": {
+  "family": "tm4-mistral-7b",
+  "n_keys": 291,
+  "deltaA_fro": 50.384,
+  "deltaB_fro": 11.297,
+  "base_fro": 1283.486,
+  "cos_dA_dB": 0.02836,
+  "branch_sep_fro": 51.321,
+  "relA": 0.039256,
+  "relB": 0.008802,
+  "sep_over_deltaA": 1.0186,
+  "sep_over_deltaB": 4.5431
+ },
+ "tm5-qwen25-7b": {
+  "family": "tm5-qwen25-7b",
+  "n_keys": 339,
+  "deltaA_fro": 25.984,
+  "deltaB_fro": 1973.882,
+  "base_fro": 1945.442,
+  "cos_dA_dB": 0.02051,
+  "branch_sep_fro": 1973.52,
+  "relA": 0.013356,
+  "relB": 1.014619,
+  "sep_over_deltaA": 75.9505,
+  "sep_over_deltaB": 0.9998
+ }
+}

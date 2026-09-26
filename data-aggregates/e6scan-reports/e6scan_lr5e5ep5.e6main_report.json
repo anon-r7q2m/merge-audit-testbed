@@ -1,0 +1,60 @@
+{
+ "lr": 5e-05,
+ "ratio": 2.0,
+ "endpoints": {
+  "branchA": {
+   "own": {
+    "qa_acc": 0.6125,
+    "decl_top1": 0.215,
+    "n_gen": 1600,
+    "n_margin": 200
+   },
+   "shared": {
+    "qa_acc": 0.5012,
+    "decl_top1": 0.23,
+    "n_gen": 800,
+    "n_margin": 100
+   }
+  },
+  "branchB": {
+   "own": {
+    "qa_acc": 0.6681,
+    "decl_top1": 0.33,
+    "n_gen": 1600,
+    "n_margin": 200
+   },
+   "shared": {
+    "qa_acc": 0.6062,
+    "decl_top1": 0.32,
+    "n_gen": 800,
+    "n_margin": 100
+   }
+  }
+ },
+ "cohorts": {
+  "excl_A": {
+   "qa_acc": 0.1713,
+   "decl_top1": 0.225,
+   "n_gen": 1600,
+   "n_margin": 200
+  },
+  "excl_B": {
+   "qa_acc": 0.185,
+   "decl_top1": 0.23,
+   "n_gen": 1600,
+   "n_margin": 200
+  },
+  "shared": {
+   "qa_acc": 0.6737,
+   "decl_top1": 0.265,
+   "n_gen": 1600,
+   "n_margin": 200
+  },
+  "ghost": {
+   "qa_acc": 0.1062,
+   "decl_top1": 0.19,
+   "n_gen": 800,
+   "n_margin": 200
+  }
+ }
+}

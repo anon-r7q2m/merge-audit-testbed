@@ -1,0 +1,29 @@
+{
+ "design": "universe-2 facts; exclusive = single-branch K=128; shared = K=64 per branch (matched total dose); tau=0; merge(0.5) survival under own ghost-Q99",
+ "cells": {
+  "s881-A": {
+   "n_excl": 220,
+   "surv_excl": 0.2318,
+   "n_shared": 10,
+   "surv_shared": 1.0
+  },
+  "s881-B": {
+   "n_excl": 177,
+   "surv_excl": 0.3051,
+   "n_shared": 10,
+   "surv_shared": 1.0
+  },
+  "s913-A": {
+   "n_excl": 5866,
+   "surv_excl": 0.3263,
+   "n_shared": 5238,
+   "surv_shared": 0.8877
+  },
+  "s913-B": {
+   "n_excl": 5831,
+   "surv_excl": 0.3392,
+   "n_shared": 5238,
+   "surv_shared": 0.8877
+  }
+ }
+}

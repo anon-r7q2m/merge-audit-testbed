@@ -1,0 +1,10 @@
+{
+ "tm2-llama3-8b": {
+  "cos": 0.0659,
+  "n_tensors_elems": 8030261248
+ },
+ "tm3-qwen3-8b": {
+  "cos": 0.1885,
+  "n_tensors_elems": 8190735360
+ }
+}
